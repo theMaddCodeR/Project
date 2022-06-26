@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-box p {
+    font-size: 20px;
+    color: black;
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    
+}
+ 
+.text-box h1 {
+    color: black;
+    margin-left: 20;
+    font-size: 40px;
+    font-family: sans-serif;
+    
+}
+.hey{
+margin-top: 20px;
+    color: red;
+}
+
+.nhed {
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.nhedd{
+    color: red;
+    
+}
+
+.spa {
+    font-size: 40px;
+    color: #fff;
+    padding-left: 50px;
+
+}
+
+.top {
+    min-height: 100vh;
+    width: 100%;
+   
+   /* background-image: url(home.jpeg); */
+   background-image: url(food.jpg);
+   background-position: center;
+   background-size: cover;
+
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.photoo{
+    height: 500px;
+    width: 500px;
+    
+    margin-left: 950px;
+    margin-top: 0px ;
+    
+   
+
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+
+}
+
+.nav-links {
+    background-color:#fff;
+    flex: 1;
+    text-align: center;
+    padding: 30px 0px 10px 0px;
+   
+    
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+
+}
+
+.text-box h1 {
+    font-size: 65px;
+    padding: 0px 0px 0px 40px;
+    margin-bottom: 0px;
+    line-height: 60px;
+    
+}
+
+.text-box {
+    margin: 0px;
+}
+
+
+.text-box a {
+    padding-left: 40px;
+}
+
+.botton {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    margin-left: 250px;
+
+}
+
+.botton:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+ /*                                          this is  special food class                                    */
+
+
+
+
+
+.ndclass {
+    min-height: 100vh;
+    width: 100%;
+    /* background-image: url(bak.jpg); */
+     background-color: #C6DCE4;
+    background-position: center;
+    background-size: cover;
+    border-top: 20px solid #fff;
+    position: relative;
+    padding-left: 10px;
+
+
+}
+
+.aphoto {
+    height: 300px;
+    width: 300px;
+    background-color: #DAEAF1;
+    position: absolute;
+    text-align: center;
+
+    border: 1px solid;
+    border-radius: 20px;
+
+
+}
+
+.aphoto:hover {
+    border: 1px solid #36f4a8;
+    background-image: url(burger.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.bphoto:hover {
+    border: 1px solid #36f4a8;
+    background-image: url(keemasamosaa.jpeg);
+    background-size: cover;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.cphoto:hover {
+    border: 1px solid #36f4a8;
+    background-image: url(afganjalebi2.jpeg);
+    background-size: cover;
+
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.dphoto:hover {
+    border: 1px solid #36f4a8;
+    background-image: url(Turkish_tea.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.ephoto:hover {
+    border: 1px solid #36f4a8;
+    background-image: url(mohabbatkafaluda.jpeg);
+    background-size: cover;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.fphoto:hover {
+    border: 1px solid #36f4a8;
+    background-image: url(kullad_tea.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.aphoto:hover .aaphoto {
+    visibility: hidden;
+}
+
+.aphoto:hover .ha {
+    visibility: hidden;
+}
+
+.bphoto:hover .aaphoto {
+    visibility: hidden;
+}
+
+.bphoto:hover .ha{
+    visibility: hidden;
+}
+
+.cphoto:hover .aaphoto {
+    visibility: hidden;
+}
+
+.cphoto:hover .ha {
+    visibility: hidden;
+}
+
+.dphoto:hover .aaphoto {
+    visibility: hidden;
+}
+
+.dphoto:hover .ha {
+    visibility: hidden;
+}
+
+.ephoto:hover .aaphoto {
+    visibility: hidden;
+}
+
+.ephoto:hover .ha {
+    visibility: hidden;
+}
+
+.fphoto:hover .aaphoto {
+    visibility: hidden;
+}
+
+.fphoto:hover .ha {
+    visibility: hidden;
+}
+
+
+
+
+.ndclass p {
+    color: black;
+}
+
+.ndclass h3 {
+    color: black;
+
+
+
+}
+.ha{
+    font-size: 35px;
+    color: black;
+}
+
+.bphoto {
+    height: 300px;
+    width: 300px;
+    margin-left: 320px;
+    text-align: center;
+    background-color: #DAEAF1;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.cphoto {
+    height: 300px;
+    width: 300px;
+    margin-left: 640px;
+    text-align: center;
+    background-color: #DAEAF1;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.dphoto {
+    height: 300px;
+    width: 300px;
+    margin-top: 310px;
+    text-align: center;
+    background-color: #DAEAF1;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.ephoto {
+    height: 300px;
+    width: 300px;
+    margin-top: 310px;
+    margin-left: 320px;
+    text-align: center;
+
+    background-color: #DAEAF1;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 20px;
+
+}
+
+.fphoto {
+    height: 300px;
+    width: 300px;
+    margin-top: 310px;
+    margin-left: 640px;
+    text-align: center;
+    background-color: #DAEAF1;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 20px;
+
+}
+
+.pho {
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin-right: 0px;
+}
+
+.aaphoto {
+    margin: 0px;
+    padding: 0px;
+    text-align: centre;
+}
+.but{
+    height: 40px;
+    width: 80px;
+    background-color:#FFDAB9;
+    margin-top: 70px;
+   
+    border-radius: 20px;
+}
+.but:hover{
+    background-color: green;
+}
+
+
+
+
+
+
+/* this is 4th section */
+
+.thirdsection {
+
+    min-height: 100vh;
+    width: 100%;
+      /* background-image: url(hel.jpeg); */
+    background-color: #C6DCE4;  
+    /* background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)), url(food.jpg); */
+    background-position: center;
+    background-size: cover;
+    border-top: 20px solid #fff;
+    position: relative;
+}
+
+.threehi {
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+    
+}
+.cont{
+    color: #f44336;
+}
+
+.third {
+    position: relative;
+}
+
+.contactusform {
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+   position: absolute;
+   top: 10px;
+    left: 1130px;
+  
+   
+}
+.location{
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    
+    background-color: #B0E0E6;
+}
+
+
+.contactusform input, textarea {
+   
+     width: 60%;
+     padding: 15px;
+     background-color: transparent;
+     margin: 10px 0px;
+    
+     outline: none;
+     border: 1px solid black;
+     border-radius: 10px;
+ 
+ 
+ }
+ 
+ .map{
+     height: 500px;
+     width: 500px;
+     border-radius: 10px;
+     margin-left: 60px;
+     margin-top: 0px;
+   display: inline-block;
+ }
+ .hhh{
+     color: black;
+     font-size: 30px;
+     margin-left:60px ;
+     padding: 0px;
+ }
+ .hh{
+     color: black;
+     font-size: 30px;
+ }
+  .homeicon{
+      height: 30px;
+      width: 30px;
+  }
+
+
+
+
+
+
+ /* this is 4th section */
+
+
+
+
+
+
+.morefoods{
+    min-height: 100vh;
+    width: 100%;
+   
+   /* background-image: url(home.jpeg); */
+   background-color: #F0FFF0;
+  
+   background-position: center;
+   background-size: cover;
+
+    background-repeat: no-repeat;
+    /* position: relative; */
+
+}
+
+
+
+.abox{
+    height: 170px;
+    width: 350px;
+    background-color:#B0E0E6;
+    border-color: #f44336;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 20px;
+position: relative;
+
+
+
+}
+.abox:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+.hmorefood{
+    font-size: 40px;
+    text-align: center;
+}
+
+.smallfoodphotos{
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+
+}
+.costofmorefoods{
+    display: inline-block;
+    color: black;
+    font-size: 17px;
+}
+.costo{
+   position: absolute;
+    
+    color: black;
+    display: inline-block;
+}
+.abox p{
+    padding: 0;
+    margin: 0;
+}
+
+.cut{
+    height: 40px;
+    width: 80px;
+    background-color:#FFDAB9;
+    margin-top: 10px;
+   
+    border-radius: 20px;
+   display: inline-block;
+}
+
+
+.cut:hover{
+    background-color: green;
+}
+
+
+
+.information {
+    min-height: 100vh;
+    width: 100%;
+   background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-top: 20px solid #fff;
+
+}
+
+
+.heada{
+    width: 100%;
+    height: 250px;
+    background-image: url(lastphoto.jpg);
+    position: relative;
+}
+.umar{
+    font-size: 50px;
+    color: #f44336;
+    margin-left: 700px;
+    position: absolute;
+    top: 200px;
+     background-color: #fff;
+}
+.content h2 ,p{
+    color: white;
+    font-size: 25px;
+}
+.foot{
+    margin-top: 200px;
+    background-color: #f44336;
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+} 
